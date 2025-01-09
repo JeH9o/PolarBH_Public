@@ -31,8 +31,9 @@ You can click on following links to the specific webpage.
 
 
 ## Updates(Version History)
->###9th Jan, 2025
->Add dual-licenses to this repo.
+>##9th Jan, 2025
+>- Add dual-licenses to this repo.
+>---------------
 
 
 ## License
