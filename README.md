@@ -20,11 +20,12 @@ I will develop as many web pages as I need and it will probably not be limited t
 
 You can click on following links to the specific webpage.
 > ### Structure:
-> 1. <a href="#description">Introduction</a>
-> 2. Software Portfolio
-> 3. Hardware Portfolio
-> 4. Art Portfolio
-> 5. Other things(Wild World)
+> 1. <a href="#description">Introduction</a> (Home)(About)
+> 2. Portfolio(Seeking Job) : Software Portfolio : Hardware Portfolio
+> 3. Art Gallery - Projects
+> 4. Other things(Wild World)
+> 5. Blog
+> 6. Contact
 
 
 ## Dependencies
