@@ -4,31 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Manwai | Portfolio</title>
+
+    <!-- 預先套用主題，避免閃白 -->
+    <script>
+      const savedTheme = localStorage.getItem("theme") || "light";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    </script>
+
     <link rel="stylesheet" href="assets/css/style.css" />
-    
-
 </head>
+
+
 <body>
-
-    <!-- Header -->
-    <header id="header">
-    <div class="logo">Manwai</div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="ipWorld.html">Worldbuilding</a>
-        <a href="blog.html">Blog</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <button id="theme-toggle" class="theme-btn"> 
-            <span class="icon-sun">☀️</span> 
-            <span class="icon-moon">🌙</span>
-        </button>
-    </nav>
-    </header>
+    <div class="stray-bg">
+        <div class="stray-layer-1"></div>
+        <div class="stray-layer-2"></div>
+        <div class="stray-layer-3"></div>
+    </div>
 
 
-    
+    <!-- Web Component Menu -->
+    <site-menu></site-menu>
+
+    <section class="section reveal">
+    <h2 class="reveal">Projects</h2>
+    <p class="reveal">Some description...</p>
+    </section>
+
+    <a class="paw-hover">Contact</a>
+
+
     <!-- Hero Section -->
     <section id="home" class="hero">
         <h1>Hi, I'm <span class="highlight">Manwai</span></h1>
@@ -83,14 +88,15 @@
     <!-- Contact Section -->
     <section id="contact" class="section">
         <h2>Contact</h2>
-        <p>Email: <a href="manwai.ho@outlook.com">manwai.ho@outlook.com</a></p>
-        <p>GitHub: <a href="https://github.com/JeH9o" target="_blank">JeH9o(MWH-W)</a></p>
+        <p>Email: <a href="mailto:manwai.ho@outlook.com">manwai.ho@outlook.com</a></p>
     </section>
 
-    <footer>
-        © 2025 ManWai Ho. All rights reserved.
-    </footer>
-
+    <!-- Web Component footer -->
+    <site-footer></site-footer>
+    
+    <!-- JS -->
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/footer.js"></script>
     <script src="assets/js/script.js"></script>
 
 </body>

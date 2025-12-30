@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | Manwai</title>
+
+    <!-- 預先套用主題，避免閃白 -->
+    <script>
+      const savedTheme = localStorage.getItem("theme") || "light";
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    </script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- STRAY 背景光影 -->
+    <div class="stray-bg">
+      <div class="stray-layer-1"></div>
+      <div class="stray-layer-2"></div>
+      <div class="stray-layer-3"></div>
+    </div>
+
+    <!-- Menu Web Component -->
+    <site-menu></site-menu>
+
+    <!-- Hero 區塊 -->
+    <section class="hero reveal">
+        <h1>About Me</h1>
+        <p>
+            I’m Manwai — a web developer who loves cyberpunk aesthetics, neon atmospheres,
+            and building modular, scalable front‑end systems.  
+            This site is my playground where I experiment with design, animation,
+            and futuristic UI concepts inspired by games like <strong>STRAY</strong>.
+        </p>
+    </section>
+
+    <!-- Main About Section -->
+    <section class="section reveal">
+        <h2>Who I Am</h2>
+        <p>
+            I’m a creative developer who enjoys turning ideas into interactive experiences.
+            I love clean architecture, modular JavaScript, and building components that feel alive.
+            My work blends technology with style — especially neon, dark themes, and atmospheric visuals.
+        </p>
+    </section>
+
+    <section class="section reveal">
+        <h2>My Skills</h2>
+        <p>
+            • HTML, CSS, JavaScript  
+            • Modular JS architecture & Web Components  
+            • Responsive design & UI/UX  
+            • Cyberpunk / neon design systems  
+            • GitHub workflow & deployment  
+        </p>
+    </section>
+
+    <section class="section reveal">
+        <h2>My Philosophy</h2>
+        <p>
+            I believe websites should feel like worlds — not just pages.  
+            Every animation, color, and interaction should tell a story.  
+            STRAY’s atmosphere inspires me to create interfaces that feel alive,
+            immersive, and emotionally expressive.
+        </p>
+    </section>
+
+    <section class="section reveal">
+        <h2>What I’m Building Next</h2>
+        <p>
+            I’m currently expanding this site into a full cyberpunk‑inspired portfolio,
+            complete with animated UI, neon effects, and a dynamic blog system.
+            My goal is to create a space that feels like stepping into a neon alleyway
+            in a futuristic city — quiet, atmospheric, and full of personality.
+        </p>
+    </section>
+
+    <!-- Footer Web Component -->
+    <site-footer></site-footer>
+
+
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/footer.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>
